@@ -322,6 +322,75 @@ h2:hover{
     transform: scale(1.08);
  }
 
+ .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 96px 0 50px;
+ }
+
+ .footer #footer_first_line{
+    font-size: 2.2rem;
+    line-height: 40px;
+    font-weight: 700;
+    width: auto;
+    color: #D6DDE6;
+ }
+.form01{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.input01{
+    width: 27.5rem;
+    background-color: #111920;
+    border:1.5px solid#41474D;
+    color:#ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+#subscribe{
+    height: 3rem;
+    width: 9rem;
+    background-color: #A7EE43;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: background-color, transform 0.5s ease-in-out;
+}
+
+#subscribe:hover{
+    background-color: #8BC34A;
+    transform: scale(1.04);
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.social i{
+    font-size: 3rem;
+    color: #D6DDE6;
+    transition: color, transform 0.5s ease-in-out;
+}
+
+.social i:hover{
+    color: #A7EE43;
+    transform: scale(1.05);    
+}
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
@@ -404,14 +473,6 @@ h2:hover{
     .btn {
         width: 80%;
     }
-    .left01 h1 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .right01 ul li {
-        font-size: 1rem;
-    }
 }
 
 
@@ -439,5 +500,6 @@ h2:hover{
     #images {
         grid-template-columns: 1fr;
     }
+    
     
 }
