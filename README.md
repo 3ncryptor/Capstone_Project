@@ -1,0 +1,4 @@
+CAPSTONE PROJECT
+
+This is the Capstone Project.<br>
+TITLE: WELCOME TO THE FUTURE
