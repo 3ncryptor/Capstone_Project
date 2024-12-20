@@ -277,6 +277,23 @@ h2:hover{
     margin-left: 550px;
 }
 
+.right01_01 li{
+    transition: color,transform 0.5s ease-in-out;
+}
+.right01_02 li {
+    transition: color,transform 0.5s ease-in-out;
+}
+.right01_01 li:hover{
+    color: #81b834;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.right01_02 li:hover{
+    color: #81b834;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
 .right01_01, .right01_02 {
     flex: 1;
 }
